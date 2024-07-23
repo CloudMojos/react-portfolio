@@ -2,19 +2,18 @@
 
 .stack {
     font-family: "JetBrains Mono", monospace;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    display: inline-block;
+    margin: 10px;
     .stackIconsContainer {
-      
+        width: 30vw;
+        height: 50vw;
         border: 5px solid grey;
         border-radius: 20px;
     }
     
     .stackName {
         font-size: 2rem;
+        text-align: center;
     }
 
 }

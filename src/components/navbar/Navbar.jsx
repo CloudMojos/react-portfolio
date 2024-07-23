@@ -8,9 +8,9 @@ function Navbar() {
                 <p>JOSHUEL ERNEST SIMBULAN</p>
             </div>
             <div className="links">
-                <a href="#" className="stack">Stack</a>
-                <a href="#" className="projects">Projects</a>
-                <a href="#" className="contact">Contact</a>
+                <a href="#" className="stack-link">Stack</a>
+                <a href="#" className="projects-link">Projects</a>
+                <a href="#" className="contact-link">Contact</a>
             </div>
         </div>
     );
