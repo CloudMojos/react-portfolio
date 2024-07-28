@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
-
 .stack {
     font-family: "JetBrains Mono", monospace;
     display: inline-block;
-    margin: 10px;
+    /* margin: 10px; */
     .stackIconsContainer {
         width: 30vw;
         height: 50vw;

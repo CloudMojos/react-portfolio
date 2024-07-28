@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+:root {
+    --main-color: #AEFF9E;
+}
+
+#root, body {
+    margin: 0;
+    padding: 0;
+    border: 0;;
+}
+
+body {
+    height: 200vh;
+}
+
+.aboutMe {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    .aboutMeText {
+        font-size: 2rem;
+        padding-left: 10vw;
+        width: 50%;
+    }
+    .spotifyPlaylist {
+        width: 50%;
+        iframe {
+            border: 0;
+            height: 80vh;
+            width: 80%;
+        }
+    }
+}
